@@ -26,7 +26,7 @@ jobs:
           elif [[ "${{ steps.extract_branch_name.outputs.branch_name }}" == "2.x" ]]; then
             title="2.0"
           elif [[ "${{ steps.extract_branch_name.outputs.branch_name }}" == "12.x" ]]; then
-            title="2.0"
+            title="12.0"
           elif [[ "${{ steps.extract_branch_name.outputs.branch_name }}" == "socoladaica" ]]; then
             title="socoladaica-custom"
           else
